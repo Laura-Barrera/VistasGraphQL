@@ -1,0 +1,29 @@
+{
+  "name": "vistas-graphql",
+  "version": "1.0.0",
+  "description": "Vistas del cliente para el taller de GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laura-Barrera/VistasGraphQL.git"
+  },
+  "keywords": [
+    "cliente",
+    "graphQL"
+  ],
+  "author": "Laura Barrera - Cristian Suancha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laura-Barrera/VistasGraphQL/issues"
+  },
+  "homepage": "https://github.com/Laura-Barrera/VistasGraphQL#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
