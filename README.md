@@ -1,6 +1,6 @@
 # Taller GraphQL
 
-El desarrollo del taller se baso en usar una API ya existente en la web y consumir sus servicios haciendo uso de GraphQL.
+El desarrollo del taller se baso en usar una base de datos en Mongo Atlas de cantantes y canciones y consumir sus servicios haciendo uso de GraphQL.
 
 ## Desarrolladores
 - Laura Melissa Barrera Pinto
