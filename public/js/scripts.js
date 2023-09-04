@@ -75,8 +75,14 @@ function createAuthor() {
     if (date != "" && name != "" && id != "") {
         fetch("http://localhost:4000/", options).then(resp => resp.json())
             .then(resp => {
-                alert('Autor creado exitosamente!')
-                window.location.href = window.location.href;
+                    if (resp.data.saveAuthor === null) {
+                      alert('No se pudo crear el autor, ya existe el id.');
+                      window.location.href = window.location.href;
+                    } else {
+                      alert('Autor creado exitosamente!');
+                      window.location.href = window.location.href;
+                    }
+                
             })
     } else {
         alert('Campos vacíos!')
@@ -327,7 +333,7 @@ function createSong() {
             .then(resp => {
                 alert('Canción creada exitosamente!')
                 window.location.reload();
-
+                
             })
 
     } else {
