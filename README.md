@@ -10,5 +10,16 @@ El desarrollo del taller se baso en usar una base de datos en Mongo Atlas de can
 - express
 - nodemon
 
+## Comandos
+```
+npm install express
+```
+```
+npm install nodemon --save-dev
+```
+```
+npm start
+```
+
 ## Puerto de despliegue
 Puerto 3500
